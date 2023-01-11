@@ -7,7 +7,7 @@
 
 <script>
 // @ is an alias to /src
-import EventCard from "@/components/EventCard.vue"
+import EventCard from "@/components/EventCard.vue";
 
 export default {
   name: "HomeView",
@@ -51,9 +51,9 @@ export default {
           organizer: "Carey Wales",
         },
       ],
-    }
+    };
   },
-}
+};
 </script>
 
 <style scoped>

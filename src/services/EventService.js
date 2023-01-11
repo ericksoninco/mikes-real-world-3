@@ -14,4 +14,8 @@ export default {
   getEvents() {
     return apiClient.get("/events")
   },
+  //Get a single event
+  getEvent(id) {
+    return apiClient.get("/events/" + id)
+  },
 }
