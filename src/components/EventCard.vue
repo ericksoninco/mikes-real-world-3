@@ -18,7 +18,7 @@ export default {
       required: true,
     },
   },
-}
+};
 // props: {
 //  msg: String,
 //},
