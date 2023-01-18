@@ -7,13 +7,13 @@
 </template>
 
 <script>
-import EventService from '@/services/EventService';
+import EventService from "@/services/EventService";
 
 export default {
-  props: ['id'],
+  props: ["id"],
   data() {
     return {
-      event: null
+      event: null,
     };
   },
   created() {
@@ -25,6 +25,6 @@ export default {
       .catch((error) => {
         console.log(error);
       });
-  }
+  },
 };
 </script>
